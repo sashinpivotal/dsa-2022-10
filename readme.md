@@ -2,8 +2,8 @@
 
 ## Java review contents
 
-[1-day Java review hands-on lab document](https://github.com/sashinpivotal/dsa-java-review-doc)
-[1-day Java review hands-on lab solution code](https://github.com/sashinpivotal/dsa-java-review-code)
+- [1-day Java review hands-on lab document](https://github.com/sashinpivotal/dsa-java-review-doc)
+- [1-day Java review hands-on lab solution code](https://github.com/sashinpivotal/dsa-java-review-code)
 
 ## Java questions (Sang asked these questions to gauge students' Java knowledge)
 
