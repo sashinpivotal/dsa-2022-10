@@ -5,7 +5,7 @@
 - [1-day Java review hands-on lab document](https://github.com/sashinpivotal/dsa-java-review-doc)
 - [1-day Java review hands-on lab solution code](https://github.com/sashinpivotal/dsa-java-review-code)
 
-## Java questions (Sang asked these questions to gauge students' Java knowledge)
+## Java questions (Sang asks these questions to gauge students' Java knowledge)
 
 - When do you want to use Java interface?
 - When is a static method?  Why do you want to create a method as a static method? Is it a good idea to create a static method which maintains a state?
@@ -24,10 +24,15 @@
 - What is a design pattern? What is "Strategy" pattern?
 - What is dependency management in your project?
 
-
 ## Java resources (in addition to class provided ones)
 
 - [Sang Shin's Java presentations](https://github.com/sashinpivotal/java-presentations)
+
+## Individual (or group) tutorial sign-up sheet
+
+- Two 30-minute slots are available before the class
+- Please make sure to sign up the day before the tutorial session
+- [Sign-up sheet](https://docs.google.com/document/d/1ZC7L3Zd1LXeG40vW3fA0k4TRCLETNHrWI13BPLt2z74/edit)
 
 ## .gitignore example file
 
