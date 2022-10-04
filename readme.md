@@ -152,6 +152,8 @@ README.html
   - CTRL+N (find class)
   - CTRL+SHIFT+F (find file)
 
+- [IntelliJ shortcut keys cheat sheet](https://www.jrebel.com/blog/intellij-shortcuts)
+
 ### How to enable function keys for certain apps in Mac
 
 - [How to enable function keys for certain apps in Mac](https://www.techrepublic.com/article/how-to-permanently-display-the-function-keys-for-certain-apps-in-the-macbook-pro-touch-bar/)
