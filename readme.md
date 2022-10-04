@@ -281,9 +281,11 @@ public class MyNumberFormatException extends RuntimeException {
 
 - Big O rules
   - Different steps get added
+    - O(a) + O(b) => O (a+b)
   - Drop constants
-  - Dominant wins
-    - O(n + n<sup>2</sup>) => O(n<sup></sup>)
+    - O(2n) => O(n)
+  - Drop non-dominant 
+    - O(n + n<sup>2</sup>) => O(n<sup>2</sup>)
 
 
 - [Big O notation Youtube video ~9 minutes](https://www.youtube.com/watch?v=v4cd1O4zkGw&ab_channel=HackerRank)
