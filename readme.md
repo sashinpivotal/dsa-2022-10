@@ -1,4 +1,4 @@
-
+# Day 1
 
 ## Java review contents
 
@@ -157,6 +157,8 @@ README.html
 ### How to enable function keys for certain apps in Mac
 
 - [How to enable function keys for certain apps in Mac](https://www.techrepublic.com/article/how-to-permanently-display-the-function-keys-for-certain-apps-in-the-macbook-pro-touch-bar/)
+
+# Day 2
 
 ## DS&A lab projects and IntelliJ
 
