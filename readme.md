@@ -194,7 +194,7 @@ A = decimal 10
 1F = 1 * 16 + F = decimal value 31
 ```
 
-- ["int" value range - see under "Numbers" section](https://www.i-programmer.info/ebooks/modern-java/5423-java-data-types-numeric-data.html#:~:text=128%20to%20127-,short%202%20bytes%20%2D32%2C768%20to%2032%2C767,4%20bytes%207%20decimal%20digits) 
+
 
 ## Challenge exercise of number string conversion to decimal value
 
@@ -219,81 +219,7 @@ public static int convertFromGeneral(String toBeConverted,
     return decimalValueResult;
 }
 ```
-## Lab 1.1 (convert binary string to decimal) Issues
 
-- *I have the following code and I did not get the right result
-  (It was because  i < binary.length() - 1 it should have been
-   i <= binary.length() - 1)
-
-```java
-    public static int convertFromBinary(String binary){
-        // TODO-Lab1.1: return calculated decimal value converted from String binary
-        int decimalResult = 0;
-        int conversionFactor = 1;
-        for (int i = 0; i < binary.length() - 1; i++) {
-            char charAt = binary.charAt(binary.length() - i - 1);
-            if (charAt == '1') {
-                decimalResult += 1 * conversionFactor;
-            }
-            conversionFactor *= 2;
-        }
-        return decimalResult;
-    }
-```
-
-## How to add logging to your Maven project
-
-1. Add dependencies below to your *pom.xml". 
-   Make sure you click "Maven refresh" icon in your IntelliJ
-
-```xml
-        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.36</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>1.7.36</version>
-        </dependency>
-```
-
-2. Create "resources" directory under "src/main"
-3. Create *logback.xml* under "src/main/resources" directory
-   with the following contents
-
-  ```xml
-  <configuration>
-      <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
-          <encoder>
-              <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
-          </encoder>
-      </appender>
-
-      <root level="debug">
-          <appender-ref ref="STDOUT" />
-      </root>
-  </configuration>
-  ```
-
-4. Add the following code to your class as a field and 
-   import classes
-
-```java
-private static final Logger logger
-        = LoggerFactory.getLogger(HRClient.class);
-```
-
-5. Add the following code for actually logging
-
-```java
-logger.info("----------- logger info message");
-```
-
-6. Run the application and observe the logging messages
 
 ## Lab 1.3 Test plans
 
@@ -337,8 +263,10 @@ public class MyNumberFormatException extends RuntimeException {
 }
 ```
 
+- ["int" value range - see under "Numbers" section](https://www.i-programmer.info/ebooks/modern-java/5423-java-data-types-numeric-data.html#:~:text=128%20to%20127-,short%202%20bytes%20%2D32%2C768%20to%2032%2C767,4%20bytes%207%20decimal%20digits) 
 
-## Quick Quiz after Day 1
+
+## Quick Quiz after Day 2
 
 - What is ".gitignore" file for?
 - What are the differences between Checked Exception vs Unchecked exception?
@@ -376,7 +304,6 @@ public class MyNumberFormatException extends RuntimeException {
         return ints;
     }
 ```
-
 
 ## Sorting related resources
 
@@ -446,7 +373,7 @@ Every recursive program follows the same basic sequence of steps:
 - [Picture of linked list](https://www.geeksforgeeks.org/difference-between-singly-linked-list-and-doubly-linked-list/)
 
 
-## Challenge/Quiz questions after Day3
+## Challenge/Quiz questions after Day 3
 
 - What is the "base case"/"base condition" of the quick sort?
 - Is it possible to support Queue operations of "enqueue() to the tail" and "dequeue() from head" with a singular link node (instead of double link node as we've seen in our lab) assuming the queue has still both "head" and "tail"? 
@@ -475,3 +402,57 @@ item pop( )
 - [Lambda syntax presentation slides](https://github.com/sashinpivotal/java-presentations/blob/main/javase8_lambda_syntax.pdf)
 - [Functional Interface presentation slides](https://github.com/sashinpivotal/java-presentations/blob/main/javase8_lambda_fi.pdf)
 - [Java Streams presentation slides](https://github.com/sashinpivotal/java-presentations/blob/main/javase8_lambda_streams.pdf)
+
+## How to add logging to your Maven project
+
+1. Add dependencies below to your *pom.xml". 
+   Make sure you click "Maven refresh" icon in your IntelliJ
+
+```xml
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.36</version>
+        </dependency>
+```
+
+2. Create "resources" directory under "src/main"
+3. Create *logback.xml* under "src/main/resources" directory
+   with the following contents
+
+  ```xml
+  <configuration>
+      <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+          <encoder>
+              <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+          </encoder>
+      </appender>
+
+      <root level="debug">
+          <appender-ref ref="STDOUT" />
+      </root>
+  </configuration>
+  ```
+
+4. Add the following code to your class as a field and 
+   import classes
+
+```java
+private static final Logger logger
+        = LoggerFactory.getLogger(HRClient.class);
+```
+
+5. Add the following code for actually logging
+
+```java
+logger.info("----------- logger info message");
+```
+
+6. Run the application and observe the logging messages
