@@ -267,9 +267,10 @@ public static int convertFromGeneral(String toBeConvertedNumberString,
     public static int convertFromGeneral(String toBeConvertedNumberString, int numberBase) {
         int conversion = 1;
         int decimalResult = 0;
-        int num = 0;
+  
         for (int i = toBeConvertedNumberString.length() - 1; i >= 0; i--) {
-            num = convertCharacterToDecimal(toBeConvertedNumberString, numberBase, i);
+            int num = convertCharacterToDecimal(
+                toBeConvertedNumberString, numberBase, i);
             decimalResult += num * conversion;
             conversion *= numberBase;
         }
