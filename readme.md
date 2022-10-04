@@ -289,7 +289,9 @@ public class MyNumberFormatException extends RuntimeException {
     - O(n + n<sup>2</sup>) => O(n<sup>2</sup>)
 
 
-- [Big O notation Youtube video ~9 minutes](https://www.youtube.com/watch?v=v4cd1O4zkGw&ab_channel=HackerRank)
+## Resources (from homework sheet)
+
+- [Introduction to Big O Notation (12 minutes)](https://www.youtube.com/watch?v=zUUkiEllHG0)
   
 
 ## Runtime complexity of Lab 1.4 - find intersected numbers
@@ -321,6 +323,8 @@ public class MyNumberFormatException extends RuntimeException {
 ## Sorting related resources
 
 - [Recursion Youtube video ~11 minutes](https://www.youtube.com/watch?v=k-7jJP7QFEM&t=2s&ab_channel=CodingwithJohn)
+- [Recursion (20 minutes) - from homework sheet](https://www.youtube.com/watch?v=ngCos392W4w)
+- [Recursion (12 minutes) - from homework sheet](https://www.youtube.com/watch?v=HXNhEYqFo0o)
 - [Animated sorting](https://visualgo.net/en/sorting)
 
 ## Bubble sort
