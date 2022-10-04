@@ -320,6 +320,7 @@ public class MyNumberFormatException extends RuntimeException {
 
 ## Sorting related resources
 
+- [Recursion Youtube video ~11 minutes](https://www.youtube.com/watch?v=k-7jJP7QFEM&t=2s&ab_channel=CodingwithJohn)
 - [Animated sorting](https://visualgo.net/en/sorting)
 
 ## Bubble sort
