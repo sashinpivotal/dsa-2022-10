@@ -231,6 +231,10 @@ hexadecimal 2D = 32+13 = decimal 45
 
 ## Lab 1.2 (octal string to decimal value conversion) pseudo-code
 
+- What are the differences between octal-decimal conversion and binary-decimal conversion?
+  - conversion number base is now 8 instead of 2
+  - there are 8 possible digits
+
 
 
 ## Optional exercise of "number string conversion to decimal value" (Do this only after you are done with Lab 1.1 and Lab 1.2)
