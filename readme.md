@@ -261,7 +261,7 @@ public static int convertFromGeneral(String toBeConvertedNumberString,
 }
 ```
 
-- Solution of the above code is below
+- Solution of the above code is below (this is not the most efficient code - see some refactoring suggestions below)
 
 ```java
     public static int convertFromGeneral(String toBeConvertedNumberString, int numberBase) {
