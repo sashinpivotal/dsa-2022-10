@@ -238,7 +238,7 @@ public static int convertFromGeneral(String toBeConverted,
 }
 ```
 
-## Testing negative cases
+## Testing negative cases (in relation to Lab 1.3)
 
 - Two different ways of testing if your code generates an exception correctly
 
