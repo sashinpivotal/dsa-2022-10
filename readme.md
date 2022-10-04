@@ -284,7 +284,7 @@ public class MyNumberFormatException extends RuntimeException {
   - Different steps get added
     - O(a) + O(b) => O (a+b)
   - Drop constants
-    - O(2n) => O(n)
+    - 2 * (n) => O(n)
   - Drop non-dominant 
     - O(n + n<sup>2</sup>) => O(n<sup>2</sup>)
 
@@ -297,7 +297,7 @@ public class MyNumberFormatException extends RuntimeException {
 - Runtime complexity of neither arrays sorted
   - "O(n<sup>2</sup>)"
 - Runtime complexity of one array sorted while the other array is not sorted 
-  - "O(n log n) + O(n log n) -> O (n log n)"
+  - "O(n log n) + O(n log n) -> 2 * O(n log n) -> O(n log n)"
   - The first "O(n log n)" is for quick-sorting one array
   - The second "O(n log n)" is for binary searching for "n" items in the other array
 - Runtime complexity of both arrays are sorted
