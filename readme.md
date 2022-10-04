@@ -306,7 +306,10 @@ public class MyNumberFormatException extends RuntimeException {
 - Big O Notation
   
 ```
-Big O notation gives an upper bound of the complexity in the **worst** case, helping to quantify performance as the input size becomes **arbitrarily large**
+Big O notation gives an upper bound of the 
+complexity in the **worst** case, helping 
+to quantify performance as the input size 
+becomes **arbitrarily large**
 ```
 
 - Big O examples
@@ -326,6 +329,7 @@ Big O notation gives an upper bound of the complexity in the **worst** case, hel
     - O(2n) => O(n)
   - Drop non-dominant 
     - O(n + n<sup>2</sup>) => O(n<sup>2</sup>)
+    - O(7 log n<sup>3</sup> + 15n<sup>2</sup> + 2n<sup>3</sup> + 8) => O(n<sup>3</sup>)
 
 
 ## Resources (from homework sheet)
