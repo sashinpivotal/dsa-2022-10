@@ -279,7 +279,7 @@ public class MyNumberFormatException extends RuntimeException {
 
 ## Runtime complexity
 
-- [Big O notation Youtube videos](https://www.youtube.com/results?search_query=big+o+notation)
+- [Big O notation Youtube video ~9 minutes](https://www.youtube.com/watch?v=v4cd1O4zkGw&ab_channel=HackerRank)
   
 
 ## Runtime complexity of Lab 1.4 - find intersected numbers
