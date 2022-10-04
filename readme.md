@@ -261,6 +261,56 @@ public static int convertFromGeneral(String toBeConverted,
 }
 ```
 
+- Solution of the above code is below
+
+```java
+    public static int convertFromGeneral(String toBeConvertedNumberString, int numberBase) {
+        int conversion = 1;
+        int decimalResult = 0;
+        int num = 0;
+        for (int i = toBeConvertedNumberString.length() - 1; i >= 0; i--) {
+            num = convertCharacterToDecimal(toBeConvertedNumberString, numberBase, i);
+            decimalResult += num * conversion;
+            conversion *= numberBase;
+        }
+        return decimalResult;
+    }
+
+    public static final int BASE10 = 10;
+    private static int convertCharacterToDecimal(String toBeConverted, int numberBase, int i) {
+        int num;
+        if (numberBase <= BASE10) {
+            num = convertNumberCharacterToDecimal(toBeConverted.charAt(i));
+        } else {
+            num = convertHexCharToDecimal(toBeConverted.charAt(i));
+        }
+        return num;
+    }
+
+    private static int convertNumberCharacterToDecimal(char c) {
+        return Integer.parseInt(Character.toString(c));
+    }
+
+    private static int convertHexCharToDecimal(char c) {
+        switch (c) {
+            case 'A':
+                return 10;
+            case 'B':
+                return 11;
+            case 'C':
+                return 12;
+            case 'D':
+                return 13;
+            case 'E':
+                return 14;
+            case 'F':
+                return 15;
+            default:
+                return convertNumberCharacterToDecimal(c);
+        }
+    }
+```
+
 ## Testing negative cases (in relation to Lab 1.3)
 
 - Two different ways of testing if your code generates an exception correctly
@@ -311,7 +361,6 @@ complexity in the "worst" case, helping
 to quantify performance as the input size 
 becomes "arbitrarily large"
 ```
-
 
 - Big O examples
   - O(1)        - Constant time
