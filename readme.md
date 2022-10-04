@@ -164,8 +164,9 @@ README.html
 
 - How to open lab modules
   1. File->Open
-  2. Choose "./workspace/dsa-labs" directory
-  3. Then you will see all lab modules are displayed
+  1. Choose "./workspace/dsa-labs" directory
+  1. Then you will see all lab modules are displayed
+  1. Choose any solution project and run it and verify its successful run
 
 - How to add a new module
   1. File->New->Module
