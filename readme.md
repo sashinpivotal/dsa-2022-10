@@ -212,6 +212,21 @@ E = decimal 14
 F = decimal 15
 hexadecimal 1A = 1 * 16 + A * 1 = decimal value 26
 hexadecimal 1F = 1 * 16 + F * 1 = decimal value 31
+hexadecimal 2D = 32+13 = decimal 45
+```
+
+## Lab 1.1 pseudo-code
+
+```java
+    public static int convertBinaryStringToDecimalValue(String binaryString){
+        // TODO-Lab1.1: return calculated decimal value converted from String binary
+        // for-loop - start from the bottom of the string
+        // - get the last character, and check if it is 1 or not
+        // - if it is 1, compute value of that digit with the conversion
+        //       - add it to the result
+        // - change the conversion by the power of 2
+        return 0;
+    }
 ```
 
 ## Optional exercise of "number string conversion to decimal value" (Do this only after you are done with Lab 1.1 and Lab 1.2)
@@ -278,13 +293,29 @@ public class MyNumberFormatException extends RuntimeException {
 - ["int" value range - see under "Numbers" section](https://www.i-programmer.info/ebooks/modern-java/5423-java-data-types-numeric-data.html#:~:text=128%20to%20127-,short%202%20bytes%20%2D32%2C768%20to%2032%2C767,4%20bytes%207%20decimal%20digits) 
 
 
-## Runtime complexity and Big O notation
+## Big O notation
+
+- Big O Notation
+  
+```
+Big O notation gives an upper bound of the complexity in the **worst** case, helping to quantify performance as the input size becomes **arbitrarily large**
+```
+
+- Big O examples
+  - O(1)        - Constant time
+  - O(log n)    - Logarithmic time
+  - O(n)        - Linear time
+  - O(n log n)  - Linearighmic time
+  - O(n<sup>2</sup>) - Quadric time
+  - O(n<sup>3</sup>) - Cubic time
+  - O(n<sup>n</sup>) - Exponential time
 
 - Big O rules
   - Different steps get added
     - O(a) + O(b) => O (a+b)
   - Drop constants
-    - 2 * (n) => O(n)
+    - O(n + 3) => O(n)
+    - O(2n) => O(n)
   - Drop non-dominant 
     - O(n + n<sup>2</sup>) => O(n<sup>2</sup>)
 
