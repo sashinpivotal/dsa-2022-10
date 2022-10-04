@@ -8,14 +8,14 @@
 ## Java questions (Sang asks these questions to gauge students' Java knowledge)
 
 - When do you want to use Java interface?
-- When is a static method?  Why do you want to create a method as a static method? Is it a good idea to create a static method which maintains a state?
 - What is encapsulation? What is abstraction?
 - What is Polymorphism? What are the examples of polymorphism?
-- What are the major differences between Set vs List?
 - What is difference between "protected" vs "package private or default" access modifier?
 - What is "Single responsibility principle of SOLID"? Why should we use it?
 - What is "Open for extension Closed for modification of SOLID" design principle?
 - What is dependency injection and why it is such an important software design concept?
+- What are the major differences between Set vs List?
+- When is a static method?  Why do you want to create a method as a static method? Is it a good idea to create a static method which maintains a state?
 - What is a functional interface in Java?
 - What is Lambda expression? Where do you want use it?
 - What is Generics and why you want to use it in your code?
