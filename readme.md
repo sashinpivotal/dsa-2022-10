@@ -403,26 +403,14 @@ becomes "arbitrarily large"(infinite input size)
 
 - [Introduction to Big O Notation (12 minutes)](https://www.youtube.com/watch?v=zUUkiEllHG0)
   
-
 ## Quick Quiz after Day 2
 
 1. What does O(n) runtime complexity mean?
-1. What is the runtime complexity of bubble sort in the form of Big O notation?
 1. What is the runtime complexity of binary search in the form of Big O notation?
-1. What does "base case" or "base condition" mean in the recursive programming?
-1. If you call a method in recursive fashion without "base condition" check, what would happen?
-1. Can you explain how QuickSort works at the high level?
 1. What are the differences between Checked Exception vs Unchecked exception?
 1. What is the top-level Unchecked exception in Java?
 
 # Day 3
-
-## Sorting related resources
-
-- [Recursion Youtube video ~11 minutes](https://www.youtube.com/watch?v=k-7jJP7QFEM&t=2s&ab_channel=CodingwithJohn)
-- [Recursion (20 minutes) - from homework sheet](https://www.youtube.com/watch?v=ngCos392W4w)
-- [Recursion (12 minutes) - from homework sheet](https://www.youtube.com/watch?v=HXNhEYqFo0o)
-- [Animated sorting](https://visualgo.net/en/sorting)
 
 ## Bubble sort
 
@@ -466,8 +454,13 @@ Every recursive program follows the same basic sequence of steps:
 5. Combine the results in the formulation of the answer.
 6. Return the results.
 
-## Quick sort resources
 
+## Sorting related resources
+
+- [Animated sorting](https://visualgo.net/en/sorting)
+- [Recursion Youtube video ~11 minutes](https://www.youtube.com/watch?v=k-7jJP7QFEM&t=2s&ab_channel=CodingwithJohn)
+- [Recursion (20 minutes) - from homework sheet](https://www.youtube.com/watch?v=ngCos392W4w)
+- [Recursion (12 minutes) - from homework sheet](https://www.youtube.com/watch?v=HXNhEYqFo0o)
 - [Quicksort: Partion'ing an array (~5 minutes)](https://www.youtube.com/watch?v=MZaf_9IZCrc&ab_channel=KCAng)
 - [Lomundo quicksort youtube video (~3 minutes)](https://www.youtube.com/watch?v=86WSheyr8cM&ab_channel=BukanCaraCepat)
 
@@ -475,6 +468,23 @@ Every recursive program follows the same basic sequence of steps:
 ## Challenge/Quiz questions after Day 3
 
 - What is the "base case"/"base condition" of the quick sort?
+- What is the runtime complexity of bubble sort in the form of Big O notation?
+- What does "base case" or "base condition" mean in the recursive programming?
+- If you call a method in recursive fashion without "base condition" check, what would happen?
+- Can you explain how QuickSort works at the high level?
+
+# Day 4
+
+## Linked List resources
+
+- [Picture of linked list](https://www.geeksforgeeks.org/difference-between-singly-linked-list-and-doubly-linked-list/)
+
+## Simple binary tree sample example
+
+- [Binary Tree with numbers](https://www.baeldung.com/java-binary-tree)
+
+## Challenge questions after day 4
+
 - Is it possible to support Queue operations of "enqueue() to the tail" and "dequeue() from head" with a singular link node (instead of double link node as we've seen in our lab) assuming the queue has still both "head" and "tail"? 
 - In the "pop" operation in the stack below, do we have to do any extra null pointer check of the "node.next" on the line of "head = node.next"?  In other words, can we set the head with "null"?
 
@@ -487,16 +497,6 @@ item pop( )
         return node.value
     return null
 ```
-
-# Day 4
-
-## Linked List resources
-
-- [Picture of linked list](https://www.geeksforgeeks.org/difference-between-singly-linked-list-and-doubly-linked-list/)
-
-## Simple binary tree sample example
-
-- [Binary Tree with numbers](https://www.baeldung.com/java-binary-tree)
 
 # Day 5
   
