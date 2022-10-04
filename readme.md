@@ -395,9 +395,9 @@ becomes "arbitrarily large"(infinite input size)
   - The first "O(n log n)" is for quick-sorting one array
   - The second "O(n log n)" is for binary searching for "n" items in the other array
 - Runtime complexity of both arrays are sorted
-  - "O(2 * n log n) + O(n) -> O(2 * n log n) -> O(n log n)"
+  - "O(2 * n log n) + O(2n) -> O(2 * n log n) -> O(n log n)"
   - The first "O(2 * n log n)" is for quick-sorting two arrays
-  - The "O(n)" is going through "n" items in one array
+  - The "O(2n)" is going through "n" items in both arrays
 
 ## Resources (from homework sheet)
 
