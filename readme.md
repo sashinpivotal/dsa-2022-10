@@ -174,8 +174,6 @@ README.html
 
 ## Binary and Octal Conversion
 
-- [Number system youtube intro - the first ~4 minutes](https://www.youtube.com/watch?v=FFDMzbrEXaE&ab_channel=TheOrganicChemistryTutor)
-
 - Decimal number system
 
 ```
@@ -231,15 +229,7 @@ public static int convertFromGeneral(String toBeConverted,
 }
 ```
 
-## Lab 1.3 Test plans
-
-- Positive tests
-  - it should return valid decimal value given valid number strings   
-
-- Negative tests
-  - the input string has non numeric value like "1xyz2"
-    - it should throw MyNumberFormatException given an array that contains non-numeric characters
-  - the resulting number is not in the range of 4 byte int
+## Testing negative cases
 
 - Two different ways of testing if your code generates an exception correctly
 
@@ -262,6 +252,7 @@ public void _convertFromOctal_should_throw_InvalidParameterException_given_octal
     }
 }
 ```
+
 - Example custom exception class
 
 ```java
@@ -272,6 +263,8 @@ public class MyNumberFormatException extends RuntimeException {
     }
 }
 ```
+
+- [Number system youtube intro - watch the first ~4 minutes](https://www.youtube.com/watch?v=FFDMzbrEXaE&ab_channel=TheOrganicChemistryTutor)
 
 - ["int" value range - see under "Numbers" section](https://www.i-programmer.info/ebooks/modern-java/5423-java-data-types-numeric-data.html#:~:text=128%20to%20127-,short%202%20bytes%20%2D32%2C768%20to%2032%2C767,4%20bytes%207%20decimal%20digits) 
 
@@ -293,7 +286,6 @@ public class MyNumberFormatException extends RuntimeException {
   - "2 * O(n log n) + O(n) -> 2 * O(n log n) -> O(n log n)"
   - The first "2 * O(n log n)" is for merge-sorting two arrays
   - The "O(n)" is going through "n" items in one array
-
 
 ## Example code of creating int array
 
