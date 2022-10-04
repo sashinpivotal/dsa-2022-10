@@ -397,12 +397,12 @@ becomes "arbitrarily large"(infinite input size)
 - Runtime complexity of neither arrays sorted
   - "O(n<sup>2</sup>)"
 - Runtime complexity of one array sorted while the other array is not sorted 
-  - "O(n log n) + O(n log n) -> 2 * O(n log n) -> O(n log n)"
+  - "O(n log n) + O(n log n) -> O(2 * n log n) -> O(n log n)"
   - The first "O(n log n)" is for quick-sorting one array
   - The second "O(n log n)" is for binary searching for "n" items in the other array
 - Runtime complexity of both arrays are sorted
-  - "2 * O(n log n) + O(n) -> 2 * O(n log n) -> O(n log n)"
-  - The first "2 * O(n log n)" is for quick-sorting two arrays
+  - "O(2 * n log n) + O(n) -> O(2 * n log n) -> O(n log n)"
+  - The first "O(2 * n log n)" is for quick-sorting two arrays
   - The "O(n)" is going through "n" items in one array
 
 ## Quick Quiz after Day 2
