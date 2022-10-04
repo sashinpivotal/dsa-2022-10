@@ -445,20 +445,15 @@ target: 4
 
 ## Steps of recursive programs
 
-Every recursive program follows the same basic sequence of steps:
+Every recursive program has the following two characteristics:
 
-1. Initialize the algorithm. Recursive programs often need a seed value to start with. This is accomplished either by using a parameter passed to the function or by providing a gateway function that is non-recursive but that sets up the seed values for the recursive calculation.
-2. **Check to see whether the current value(s) being processed match the base case.** If so, process and return the value.
-3. Redefine the answer in terms of a smaller or simpler sub-problem or sub-problems.
-4. Run the algorithm on the sub-problem.
-5. Combine the results in the formulation of the answer.
-6. Return the results.
-
+1. base condition - otherwise, StackOverflowError exception will occur
+2. recurring argument that gets used in the base condition
 
 ## Sorting related resources
 
 - [Animated sorting](https://visualgo.net/en/sorting)
-- [Recursion Youtube video ~11 minutes](https://www.youtube.com/watch?v=k-7jJP7QFEM&t=2s&ab_channel=CodingwithJohn)
+- [Recursion Youtube video (11 minutes)](https://www.youtube.com/watch?v=k-7jJP7QFEM&t=2s&ab_channel=CodingwithJohn)
 - [Recursion (20 minutes) - from homework sheet](https://www.youtube.com/watch?v=ngCos392W4w)
 - [Recursion (12 minutes) - from homework sheet](https://www.youtube.com/watch?v=HXNhEYqFo0o)
 - [Quicksort: Partion'ing an array (~5 minutes)](https://www.youtube.com/watch?v=MZaf_9IZCrc&ab_channel=KCAng)
@@ -478,8 +473,6 @@ Every recursive program follows the same basic sequence of steps:
 ## Linked List resources
 
 - [Picture of linked list](https://www.geeksforgeeks.org/difference-between-singly-linked-list-and-doubly-linked-list/)
-
-
 
 ## Challenge questions after day 4
 
