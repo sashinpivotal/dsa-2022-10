@@ -277,7 +277,14 @@ public class MyNumberFormatException extends RuntimeException {
 - ["int" value range - see under "Numbers" section](https://www.i-programmer.info/ebooks/modern-java/5423-java-data-types-numeric-data.html#:~:text=128%20to%20127-,short%202%20bytes%20%2D32%2C768%20to%2032%2C767,4%20bytes%207%20decimal%20digits) 
 
 
-## Runtime complexity
+## Runtime complexity and Big O notation
+
+- Big O rules
+  - Different steps get added
+  - Drop constants
+  - Dominant wins
+    - O(n + n<sup>2</sup>) => O(n<sup></sup>)
+
 
 - [Big O notation Youtube video ~9 minutes](https://www.youtube.com/watch?v=v4cd1O4zkGw&ab_channel=HackerRank)
   
