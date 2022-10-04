@@ -467,10 +467,10 @@ Every recursive program follows the same basic sequence of steps:
 
 ## Challenge/Quiz questions after Day 3
 
-- What is the "base case"/"base condition" of the quick sort?
-- What is the runtime complexity of bubble sort in the form of Big O notation?
 - What does "base case" or "base condition" mean in the recursive programming?
 - If you call a method in recursive fashion without "base condition" check, what would happen?
+- What is the "base case"/"base condition" of the quick sort?
+- What is the runtime complexity of bubble sort in the form of Big O notation?
 - Can you explain how QuickSort works at the high level?
 
 # Day 4
@@ -479,9 +479,7 @@ Every recursive program follows the same basic sequence of steps:
 
 - [Picture of linked list](https://www.geeksforgeeks.org/difference-between-singly-linked-list-and-doubly-linked-list/)
 
-## Simple binary tree sample example
 
-- [Binary Tree with numbers](https://www.baeldung.com/java-binary-tree)
 
 ## Challenge questions after day 4
 
@@ -499,6 +497,10 @@ item pop( )
 ```
 
 # Day 5
+
+## Simple binary tree sample example
+
+- [Binary Tree with numbers](https://www.baeldung.com/java-binary-tree)
   
 ## Dependency Injection Demo
 
