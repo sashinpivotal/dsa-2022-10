@@ -158,6 +158,17 @@ README.html
 
 - [How to enable function keys for certain apps in Mac](https://www.techrepublic.com/article/how-to-permanently-display-the-function-keys-for-certain-apps-in-the-macbook-pro-touch-bar/)
 
+## DS&A lab projects and IntelliJ
+
+- How to open lab modules
+  1. File->Open
+  2. Choose "./workspace/dsa-labs" directory
+  3. Then you will see all lab modules are displayed
+
+- How to add a new module
+  1. File->New->Module
+  2. Set the "Name" field to project name of your choice, i.e. "my-project"
+  3. Make sure the "Location "field is set to "./workspace/dsa-labs/my-project"
 
 ## Binary and Octal Conversion
 
