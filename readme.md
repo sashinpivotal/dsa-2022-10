@@ -161,7 +161,7 @@ README.html
 
 ## Binary and Octal Conversion
 
-- [Number system youtube intro](https://www.youtube.com/watch?v=FFDMzbrEXaE&ab_channel=TheOrganicChemistryTutor)
+- [Number system youtube intro - the first ~4 minutes](https://www.youtube.com/watch?v=FFDMzbrEXaE&ab_channel=TheOrganicChemistryTutor)
 
 - Decimal number system
 
