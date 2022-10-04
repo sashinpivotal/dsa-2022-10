@@ -248,7 +248,7 @@ hexadecimal 2D = 32+13 = decimal 45
 ```java
 // "numberBase" argument could be 2,8,10,16 to represent
 // binary, octal, decimal, and hexa-decimal respectively
-public static int convertFromGeneral(String toBeConverted, 
+public static int convertFromGeneral(String toBeConvertedNumberString, 
                                      int numberBase) {
 
     int decimalValueResult = 0;
