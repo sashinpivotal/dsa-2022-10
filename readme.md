@@ -207,8 +207,6 @@ A = decimal 10
 1F = 1 * 16 + F = decimal value 31
 ```
 
-
-
 ## Challenge exercise of number string conversion to decimal value
 
 - Write generic conversion code that handles all number systems:
@@ -232,7 +230,6 @@ public static int convertFromGeneral(String toBeConverted,
     return decimalValueResult;
 }
 ```
-
 
 ## Lab 1.3 Test plans
 
@@ -279,13 +276,6 @@ public class MyNumberFormatException extends RuntimeException {
 - ["int" value range - see under "Numbers" section](https://www.i-programmer.info/ebooks/modern-java/5423-java-data-types-numeric-data.html#:~:text=128%20to%20127-,short%202%20bytes%20%2D32%2C768%20to%2032%2C767,4%20bytes%207%20decimal%20digits) 
 
 
-## Quick Quiz after Day 2
-
-- What is ".gitignore" file for?
-- What are the differences between Checked Exception vs Unchecked exception?
-- What is the top-level Unchecked exception in Java?
-- What does "try/catch" block do in Java?
-
 ## Runtime complexity
 
 - [Big O notation Youtube videos](https://www.youtube.com/results?search_query=big+o+notation)
@@ -318,10 +308,22 @@ public class MyNumberFormatException extends RuntimeException {
     }
 ```
 
+## Quick Quiz after Day 2
+
+1. What does O(n) runtime complexity mean?
+1. What is the runtime complexity of bubble sort in the form of Big O notation?
+1. What is the runtime complexity of binary search in the form of Big O notation?
+1. What does "base case" or "base condition" mean in the recursive programming?
+1. If you call a method in recursive fashion without "base condition" check, what would happen?
+1. Can you explain how QuickSort works at the high level?
+1. What are the differences between Checked Exception vs Unchecked exception?
+1. What is the top-level Unchecked exception in Java?
+
+# Day 3
+
 ## Sorting related resources
 
 - [Animated sorting](https://visualgo.net/en/sorting)
-
 
 ## Bubble sort
 
@@ -371,21 +373,6 @@ Every recursive program follows the same basic sequence of steps:
 - [Lomundo quicksort youtube video (~3 minutes)](https://www.youtube.com/watch?v=86WSheyr8cM&ab_channel=BukanCaraCepat)
 
 
-## Quick Quiz after Day 2
-
-1. What does O(n) runtime complexity mean?
-1. What is the runtime complexity of bubble sort in the form of Big O notation?
-1. What is the runtime complexity of binary search in the form of Big O notation?
-1. What does "base case" or "base condition" mean in the recursive programming?
-1. If you call a method in recursive fashion without "base condition" check, what would happen?
-1. Can you explain how QuickSort works at the high level?
-
-
-## Linked List resources
-
-- [Picture of linked list](https://www.geeksforgeeks.org/difference-between-singly-linked-list-and-doubly-linked-list/)
-
-
 ## Challenge/Quiz questions after Day 3
 
 - What is the "base case"/"base condition" of the quick sort?
@@ -402,9 +389,17 @@ item pop( )
     return null
 ```
 
+# Day 4
+
+## Linked List resources
+
+- [Picture of linked list](https://www.geeksforgeeks.org/difference-between-singly-linked-list-and-doubly-linked-list/)
+
 ## Simple binary tree sample example
 
 - [Binary Tree with numbers](https://www.baeldung.com/java-binary-tree)
+
+# Day 5
   
 ## Dependency Injection Demo
 
