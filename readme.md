@@ -386,12 +386,6 @@ becomes "arbitrarily large"(infinite input size)
     - O(n + n<sup>2</sup>) => O(n<sup>2</sup>)
     - O(7 log n<sup>3</sup> + 15n<sup>2</sup> + 2n<sup>3</sup> + 8) => O(n<sup>3</sup>)
 
-
-## Resources (from homework sheet)
-
-- [Introduction to Big O Notation (12 minutes)](https://www.youtube.com/watch?v=zUUkiEllHG0)
-  
-
 ## Runtime complexity of Lab 1.4 - find intersected numbers
 
 - Runtime complexity of neither arrays sorted
@@ -404,6 +398,11 @@ becomes "arbitrarily large"(infinite input size)
   - "O(2 * n log n) + O(n) -> O(2 * n log n) -> O(n log n)"
   - The first "O(2 * n log n)" is for quick-sorting two arrays
   - The "O(n)" is going through "n" items in one array
+
+## Resources (from homework sheet)
+
+- [Introduction to Big O Notation (12 minutes)](https://www.youtube.com/watch?v=zUUkiEllHG0)
+  
 
 ## Quick Quiz after Day 2
 
