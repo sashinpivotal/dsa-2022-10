@@ -215,7 +215,7 @@ hexadecimal 1F = 1 * 16 + F * 1 = decimal value 31
 hexadecimal 2D = 32+13 = decimal 45
 ```
 
-## Lab 1.1 pseudo-code
+## Lab 1.1 (binary string to decimal value conversion) pseudo-code
 
 ```java
     public static int convertBinaryStringToDecimalValue(String binaryString){
@@ -228,6 +228,10 @@ hexadecimal 2D = 32+13 = decimal 45
         return 0;
     }
 ```
+
+## Lab 1.2 (octal string to decimal value conversion) pseudo-code
+
+
 
 ## Optional exercise of "number string conversion to decimal value" (Do this only after you are done with Lab 1.1 and Lab 1.2)
 
