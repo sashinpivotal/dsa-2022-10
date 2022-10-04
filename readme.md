@@ -312,6 +312,10 @@ public static int convertFromGeneral(String toBeConvertedNumberString,
     }
 ```
 
+- Refactor the above code using the following (Thanks to "Felicia Kenney")
+  - Use Character.getNumericValue() for converting a character to decimal value
+  - Use Integer.parseInt(num, 16) for converting hex char to decimal value
+
 ## Testing negative cases (in relation to Lab 1.3)
 
 - Two different ways of testing if your code generates an exception correctly
