@@ -305,10 +305,12 @@ public class MyNumberFormatException extends RuntimeException {
 
 - Big O Notation
   
+```
 Big O notation gives an upper bound of the 
-complexity in the **worst** case, helping 
+complexity in the "worst" case, helping 
 to quantify performance as the input size 
-becomes **arbitrarily large**
+becomes "arbitrarily large"
+```
 
 
 - Big O examples
