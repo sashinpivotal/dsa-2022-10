@@ -178,23 +178,25 @@ README.html
 
 ```
 Possible numbers: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-324 = 3*100 + 2*10 + 4 * 1
+decimal 324 = 3 * 100 + 2 * 10 + 4 * 1
+decimal 902 = 9 * 100 + 0 * 10 + 2 * 1
 ```
 
 - Binary number system
 
 ```
 Possible numbers: 0, 1
-101 = 1 * 4 + 0 * 2 + 1 * 1 
+binary  101 =         1 * 4 + 0 * 2 + 1 * 1 = decimal value 5
+binary 1011 = 1 * 8 + 0 * 4 + 1 * 2 + 1 * 1 = decimal value 11
 ```
 
 - Octal number system
 
 ```
 Possible numbers: 0,1,2,3,4,5,6,7
-10 = 1 * 8 + 0 * 1 = decimal 8
-17 = 1 * 8 + 7 = decimal 15
-217 = 2 * 64 + 1 * 8 + 7 = decimal 128+15=143
+octal  10 =          1 * 8 + 0 * 1 = decimal value 8
+octal  17 =          1 * 8 + 7 * 1 = decimal value 15
+octal 217 = 2 * 64 + 1 * 8 + 7 * 1 = decimal value 143
 ```
 
 - Hexadecimal number system
@@ -202,7 +204,13 @@ Possible numbers: 0,1,2,3,4,5,6,7
 ```
 Possible numbers: 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
 A = decimal 10
-1F = 1 * 16 + F = decimal value 31
+B = decimal 11
+C = decimal 12
+D = decimal 13
+E = decimal 14
+F = decimal 15
+hexadecimal 1A = 1 * 16 + A * 1 = decimal value 26
+hexadecimal 1F = 1 * 16 + F * 1 = decimal value 31
 ```
 
 ## Challenge exercise of number string conversion to decimal value
