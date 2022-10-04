@@ -294,7 +294,7 @@ public class MyNumberFormatException extends RuntimeException {
 ## Runtime complexity of Lab 1.4 - find intersected numbers
 
 - Runtime complexity of neither arrays sorted
-  - "O(n<sup></sup>)"
+  - "O(n<sup>2</sup>)"
 - Runtime complexity of one array sorted while the other array is not sorted 
   - "O(n log n) + O(n log n) -> O (n log n)"
   - The first "O(n log n)" is for quick-sorting one array
