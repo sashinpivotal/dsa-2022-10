@@ -295,19 +295,6 @@ public class MyNumberFormatException extends RuntimeException {
   - The first "2 * O(n log n)" is for merge-sorting two arrays
   - The "O(n)" is going through "n" items in one array
 
-## Example code of creating int array
-
-```java
-    private static int[] createArray(int size) {
-        int[] ints = new int[size];
-        Random random = new Random();
-        for (int i = 0; i < size; i++) {
-            ints[i] = random.nextInt(size);
-        }
-        return ints;
-    }
-```
-
 ## Quick Quiz after Day 2
 
 1. What does O(n) runtime complexity mean?
