@@ -214,7 +214,7 @@ hexadecimal 1A = 1 * 16 + A * 1 = decimal value 26
 hexadecimal 1F = 1 * 16 + F * 1 = decimal value 31
 ```
 
-## Challenge exercise of number string conversion to decimal value
+## Optional exercise of "number string conversion to decimal value" (Do this only after you are done with Lab 1.1 and Lab 1.2)
 
 - Write generic conversion code that handles all number systems:
   - binary
