@@ -414,25 +414,39 @@ becomes "arbitrarily large"(infinite input size)
 
 ## Bubble sort
 
+- [Animated sorting](https://visualgo.net/en/sorting)
+  
 - logic of bubble sort
 
 ```
 - initial array
 15, 7, 12, 4, 17, 9, 5, 6
 
-- The 1st iteration k=1
+- The 1st iteration with k=1
 7, 12, 4, 15, 9, 5, 6, [17]
-- The 2nd iteration k=2
+- The 2nd iteration with k=2
 7, 4, 12, 9, 5, 6, [15, 17]
-- The 3rd iteration k=3
+- The 3rd iteration with k=3
 4, 7, 9, 5, 6, [12, 15, 17]
 
+```
+
+- Is there any room for algorithmic improvement to the following?
+
+```
+    /*
+    bubbleSort(array)
+       n = length(array)
+       for (k = 1 until n)
+         for (j = 0 until n -1)
+           if(array[j] > array[j + 1])
+             swap(array, j, j + 1)
+    */
 ```
 
 ## Binary Search
 
 - Assumed the numbers are already sorted
-- Example
 
 ```
 sorted array: [1, 2, 3, 4, 7, 8, 9, 11, 14, 17, 20]
@@ -443,16 +457,41 @@ target: 4
 - 3rd phase [4]
 ```
 
-## Steps of recursive programs
+## Recursive programming
+
+### Recursive program characteristics
 
 Every recursive program has the following two characteristics:
 
 1. base condition - otherwise, StackOverflowError exception will occur
 2. recurring argument that gets used in the base condition
 
+### Recursive program example
+
+```java
+public class RecursiveMain {
+
+    public static void main(String[] args) {
+        int recursiveStartingCounter = 4000;
+        new Hello().hello(recursiveStartingCounter);
+    }
+
+}
+
+class Hello {
+
+    public void hello(int counter) {    // recurring argument
+        System.out.println(counter + ": hello");
+        if (counter < 0) {              // base condition
+            return;
+        }
+        hello(--counter);
+    }
+}
+```
+
 ## Sorting related resources
 
-- [Animated sorting](https://visualgo.net/en/sorting)
 - [Recursion Youtube video (11 minutes)](https://www.youtube.com/watch?v=k-7jJP7QFEM&t=2s&ab_channel=CodingwithJohn)
 - [Recursion (20 minutes) - from homework sheet](https://www.youtube.com/watch?v=ngCos392W4w)
 - [Recursion (12 minutes) - from homework sheet](https://www.youtube.com/watch?v=HXNhEYqFo0o)
