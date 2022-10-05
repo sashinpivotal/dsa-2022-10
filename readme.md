@@ -523,15 +523,15 @@ target: 4
 //        j = middle + 1
 //        arrayTemp = initArrayOfSize(end - start + 1)
 //        for (k = 0 until (end of arrayTemp))
-//             if (i <= middle && j <= end)
+//             if (i <= middle && j <= end) 
 //                 if (array[i] <= array[j]) {
 //                     arrayTemp[k] = array[i++]
 //                 else
 //                     arrayTemp[k] = array[j++]
-//             else
-//                  if (j > end) {
+//             else // end of one array is reached
+//                  if (j > end) { // end of 2nd array reached
 //                     arrayTemp[k] = array[i++];
-//                  else
+//                  else           // end of 1st array reached
 //                     arrayTemp[k] = array[j++];
 //        copyArray(arrayTemp, array, start)
 ```
