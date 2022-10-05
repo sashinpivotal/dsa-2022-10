@@ -484,7 +484,7 @@ class Hello {
 - [Recursion (12 minutes) - from homework sheet](https://www.youtube.com/watch?v=HXNhEYqFo0o)
 
 
-## Binary Search
+## Binary Search using recursion
 
 - Assumed the numbers are already sorted
 
@@ -493,9 +493,13 @@ sorted array: [1, 2, 3, 4, 7, 8, 9, 11, 14, 17, 20]
 target: 4
 
 - 1st phase [1, 2, 3, 4, 7]
-- 2nd phase [3, 4, 7]
+- 2nd phase [4, 7]
 - 3rd phase [4]
 ```
+
+- What is the base
+- What is the recurring and changing arguments?
+
 
 ## Quick Sort
 
