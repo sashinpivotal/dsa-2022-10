@@ -519,8 +519,8 @@ target: 4
 
 ```
 // pseudo code:
-//        i = start
-//        j = middle + 1
+//        i = start             // start of the 1st array
+//        j = middle + 1        // start of the 2nd array
 //        arrayTemp = initArrayOfSize(end - start + 1)
 //        for (k = 0 until (end of arrayTemp))
 //             if (i <= middle && j <= end) 
