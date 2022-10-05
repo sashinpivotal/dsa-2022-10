@@ -463,8 +463,8 @@ target: 4
 
 Every recursive program has the following two characteristics:
 
-1. base condition - otherwise, StackOverflowError exception will occur
-2. recurring argument that gets used in the base condition
+1. base condition - otherwise, "StackOverflowError" exception will occur
+2. recurring argument(s) that gets used in the base condition
 
 ### Recursive program example
 
@@ -498,8 +498,10 @@ class Hello {
 
 ## Sorting related resources
 
-- [Quicksort: Partion'ing an array (~5 minutes)](https://www.youtube.com/watch?v=MZaf_9IZCrc&ab_channel=KCAng)
-- [Lomundo quicksort youtube video (~3 minutes)](https://www.youtube.com/watch?v=86WSheyr8cM&ab_channel=BukanCaraCepat)
+- Note that the QuickSort from [Animated sorting](https://visualgo.net/en/sorting) uses the first element as a Pivot (not the last element)
+
+- [Quicksort: Partion'ing an array (5 minutes)](https://www.youtube.com/watch?v=MZaf_9IZCrc&ab_channel=KCAng)
+- [Lomundo quicksort youtube video (3 minutes)](https://www.youtube.com/watch?v=86WSheyr8cM&ab_channel=BukanCaraCepat)
 
 
 ## Challenge/Quiz questions after Day 3
