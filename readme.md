@@ -431,7 +431,7 @@ becomes "arbitrarily large"(infinite input size)
 
 ```
 
-- Is there any room for algorithmic improvement to the following?
+- Is there any room for logic improvement to the following bubbleSort pseudo code?
 
 ```
     /*
@@ -472,7 +472,7 @@ Every recursive program has the following two characteristics:
 public class RecursiveMain {
 
     public static void main(String[] args) {
-        int recursiveStartingCounter = 4000;
+        int recursiveStartingCounter = 2000;
         new Hello().hello(recursiveStartingCounter);
     }
 
