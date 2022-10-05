@@ -490,11 +490,14 @@ class Hello {
 }
 ```
 
-## Sorting related resources
+### Recursion related resource
 
 - [Recursion Youtube video (11 minutes)](https://www.youtube.com/watch?v=k-7jJP7QFEM&t=2s&ab_channel=CodingwithJohn)
 - [Recursion (20 minutes) - from homework sheet](https://www.youtube.com/watch?v=ngCos392W4w)
 - [Recursion (12 minutes) - from homework sheet](https://www.youtube.com/watch?v=HXNhEYqFo0o)
+
+## Sorting related resources
+
 - [Quicksort: Partion'ing an array (~5 minutes)](https://www.youtube.com/watch?v=MZaf_9IZCrc&ab_channel=KCAng)
 - [Lomundo quicksort youtube video (~3 minutes)](https://www.youtube.com/watch?v=86WSheyr8cM&ab_channel=BukanCaraCepat)
 
