@@ -464,7 +464,7 @@ target: 4
 Every recursive program has the following two characteristics:
 
 1. base condition - otherwise, "StackOverflowError" exception will occur
-2. recurring argument(s) that gets used in the base condition
+2. recurring and changed argument(s) that gets used in the base condition
 
 ### Recursive program example
 
