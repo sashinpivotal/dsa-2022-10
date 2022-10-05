@@ -501,7 +501,7 @@ class Hello {
 - Note that the QuickSort from [Animated sorting](https://visualgo.net/en/sorting) uses the first element as a Pivot for each partitioning iteration(while our example in the slide uses the last element as a pivot)
 
 - [Quicksort: Partion'ing an array (5 minutes)](https://www.youtube.com/watch?v=MZaf_9IZCrc&ab_channel=KCAng)
-  - He uses "i" to represent "top of bottom half"
+  - He uses "i" to represent "top of lower partition" (after each partition'ing iteration)
   - Our presentation(slide #41, #42) uses "x" to represent the same
   - Our lab document (in lab 2.3a) uses "top" to represent the same
 
