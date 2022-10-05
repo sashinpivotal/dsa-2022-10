@@ -444,19 +444,6 @@ becomes "arbitrarily large"(infinite input size)
     */
 ```
 
-## Binary Search
-
-- Assumed the numbers are already sorted
-
-```
-sorted array: [1, 2, 3, 4, 7, 8, 9, 11, 14, 17, 20]
-target: 4
-
-- 1st phase [1, 2, 3, 4, 7]
-- 2nd phase [3, 4, 7]
-- 3rd phase [4]
-```
-
 ## Recursive programming
 
 ### Recursive program characteristics
@@ -495,6 +482,20 @@ class Hello {
 - [Recursion Youtube video (11 minutes)](https://www.youtube.com/watch?v=k-7jJP7QFEM&t=2s&ab_channel=CodingwithJohn)
 - [Recursion (20 minutes) - from homework sheet](https://www.youtube.com/watch?v=ngCos392W4w)
 - [Recursion (12 minutes) - from homework sheet](https://www.youtube.com/watch?v=HXNhEYqFo0o)
+
+
+## Binary Search
+
+- Assumed the numbers are already sorted
+
+```
+sorted array: [1, 2, 3, 4, 7, 8, 9, 11, 14, 17, 20]
+target: 4
+
+- 1st phase [1, 2, 3, 4, 7]
+- 2nd phase [3, 4, 7]
+- 3rd phase [4]
+```
 
 ## Quick Sort
 
