@@ -498,7 +498,7 @@ class Hello {
 
 ## Sorting related resources
 
-- Note that the QuickSort from [Animated sorting](https://visualgo.net/en/sorting) uses the first element as a Pivot (not the last element)
+- Note that the QuickSort from [Animated sorting](https://visualgo.net/en/sorting) uses the first element as a Pivot for each partitioning iteration(while our example in the slide uses the last element as a pivot)
 
 - [Quicksort: Partion'ing an array (5 minutes)](https://www.youtube.com/watch?v=MZaf_9IZCrc&ab_channel=KCAng)
 - [Lomundo quicksort youtube video (3 minutes)](https://www.youtube.com/watch?v=86WSheyr8cM&ab_channel=BukanCaraCepat)
