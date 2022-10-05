@@ -420,11 +420,11 @@ becomes "arbitrarily large"(infinite input size)
 - initial array
 15, 7, 12, 4, 17, 9, 5, 6
 
-- first iteration k=1
+- The 1st iteration k=1
 7, 12, 4, 15, 9, 5, 6, [17]
-- 2nd  iteration k=2
+- The 2nd iteration k=2
 7, 4, 12, 9, 5, 6, [15, 17]
-- 3rd iteration k=3
+- The 3rd iteration k=3
 4, 7, 9, 5, 6, [12, 15, 17]
 
 ```
