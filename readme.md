@@ -496,11 +496,15 @@ class Hello {
 - [Recursion (20 minutes) - from homework sheet](https://www.youtube.com/watch?v=ngCos392W4w)
 - [Recursion (12 minutes) - from homework sheet](https://www.youtube.com/watch?v=HXNhEYqFo0o)
 
-## Sorting related resources
+## Quick Sort
 
 - Note that the QuickSort from [Animated sorting](https://visualgo.net/en/sorting) uses the first element as a Pivot for each partitioning iteration(while our example in the slide uses the last element as a pivot)
 
 - [Quicksort: Partion'ing an array (5 minutes)](https://www.youtube.com/watch?v=MZaf_9IZCrc&ab_channel=KCAng)
+  - He uses "i" to represent "top of bottom half"
+  - Our presentation(slide #41, #42) uses "x" to represent the same
+  - Our lab document (in lab 2.3a) uses "top" to represent the same
+
 - [Lomundo quicksort youtube video (3 minutes)](https://www.youtube.com/watch?v=86WSheyr8cM&ab_channel=BukanCaraCepat)
 
 
