@@ -508,6 +508,29 @@ class Hello {
 - [Lomundo quicksort youtube video (3 minutes)](https://www.youtube.com/watch?v=86WSheyr8cM&ab_channel=BukanCaraCepat)
 
 
+## Merge Sort
+
+- The following pseudo-code also works
+
+```
+// pseudo code:
+//        i = start
+//        j = middle + 1
+//        arrayTemp = initArrayOfSize(end - start + 1)
+//        for (k = 0 until (end of arrayTemp))
+//             if (i <= middle && j <= end)
+//                 if (array[i] <= array[j]) {
+//                     arrayTemp[k] = array[i++]
+//                 else
+//                     arrayTemp[k] = array[j++]
+//	           else
+//                  if (j > end) {
+//                     arrayTemp[k] = array[i++];
+//                  else
+//                     arrayTemp[k] = array[j++];
+//        copyArray(arrayTemp, array, start)
+```
+
 ## Challenge/Quiz questions after Day 3
 
 - What does "base case" or "base condition" mean in the recursive programming?
