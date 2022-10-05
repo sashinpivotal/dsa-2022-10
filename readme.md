@@ -497,7 +497,7 @@ target: 4
 - 3rd phase [4]
 ```
 
-- What is the base
+- What is the base condition?
 - What is the recurring and changing arguments?
 
 
