@@ -607,12 +607,6 @@ public void reverseRecursivelyPositive() {
   - select "test" directory and right click it and select "Tests"
   - add junit4 jar dependency provided as part of lab contents
 
-## Lambda and Java Streams
-
-- [Slides - Java 8 Lambda Expression Syntax](https://github.com/sashinpivotal/java-presentations/blob/main/java/javase8_lambda_syntax.pdf)
-- [Slides - Java 8 Lambda Functional Interface](https://github.com/sashinpivotal/java-presentations/blob/main/java/javase8_lambda_fi.pdf)
-- [Slides - Java 8 Lambda Streams](https://github.com/sashinpivotal/java-presentations/blob/main/java/javase8_lambda_streams.pdf)
-
 ## Quiz after day 4
 
 - What is runtime complexity (big O notation) of enqueue'ing a new node to a queue?
@@ -627,10 +621,18 @@ public void reverseRecursivelyPositive() {
 
 - [Binary Tree with numbers](https://www.baeldung.com/java-binary-tree)
   
+
+# Misc. topics
+
+## Lambda and Java Streams
+
+- [Slides - Java 8 Lambda Expression Syntax](https://github.com/sashinpivotal/java-presentations/blob/main/java/javase8_lambda_syntax.pdf)
+- [Slides - Java 8 Lambda Functional Interface](https://github.com/sashinpivotal/java-presentations/blob/main/java/javase8_lambda_fi.pdf)
+- [Slides - Java 8 Lambda Streams](https://github.com/sashinpivotal/java-presentations/blob/main/java/javase8_lambda_streams.pdf)
+
 ## Dependency Injection Demo
 
 - [Sang Shin's Dependency Injection Youtube demo](https://www.youtube.com/watch?v=kmQiiT4pATo&ab_channel=SangShin)
-
 
 ## How to add logging to your Maven project
 
@@ -638,18 +640,18 @@ public void reverseRecursivelyPositive() {
    Make sure you click "Maven refresh" icon in your IntelliJ
 
 ```xml
-        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.36</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>1.7.36</version>
-        </dependency>
+<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-api</artifactId>
+    <version>1.7.36</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+<dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.7.36</version>
+</dependency>
 ```
 
 2. Create "resources" directory under "src/main"
