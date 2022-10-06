@@ -536,7 +536,7 @@ target: 4
 //        copyArray(arrayTemp, array, start)
 ```
 
-## Challenge/Quiz questions after Day 3
+## QUiz after Day 3
 
 - What does "base case" or "base condition" mean in the recursive programming?
 - If you call a method in recursive fashion without "base condition" check, what would happen?
@@ -576,7 +576,7 @@ public void reverseRecursivelyPositive() {
 - Optional exercise
   - Write a test method in which you create a singly link list of "Person" and see if it traverses correctly
 
-## Challenge questions after day 4
+## Quiz after day 4
 
 - Is it possible to support Queue operations of "enqueue() to the tail" and "dequeue() from head" with a singular link node (instead of double link node as we've seen in our lab) assuming the queue has still both "head" and "tail"? 
 - In the "pop" operation in the stack below, do we have to do any extra null pointer check of the "node.next" on the line of "head = node.next"?  In other words, can we set the head with "null"?
