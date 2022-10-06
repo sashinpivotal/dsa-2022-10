@@ -552,7 +552,7 @@ target: 4
 
 ## Linked List resources
 
-- [Picture of linked list](https://www.geeksforgeeks.org/difference-between-singly-linked-list-and-doubly-linked-list/)
+- ![Picture of linked list](./images/singular-link-list.png)
 
 ## Challenge questions after day 4
 
