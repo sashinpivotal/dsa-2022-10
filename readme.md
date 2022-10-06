@@ -541,7 +541,6 @@ target: 4
 - What does "base case" or "base condition" mean in the recursive programming?
 - If you call a method in recursive fashion without "base condition" check, what would happen?
 - What is the "base case"/"base condition" of the quick sort?
-- What is the runtime complexity of bubble sort in the form of Big O notation?
 - Can you explain how QuickSort works at the high level?
 
 # Day 4
