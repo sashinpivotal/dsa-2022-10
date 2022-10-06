@@ -561,7 +561,7 @@ target: 4
   - Singly Linked List
   - Recursive programming
 
-- Please note that your task is to print the list in the reverse order (not reverse the lined list itself)
+- Please note that your task is to print the list in the reverse order (not reverse the linked list itself)
 
 ## Challenge questions after day 4
 
