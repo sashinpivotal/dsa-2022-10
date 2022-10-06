@@ -573,6 +573,9 @@ public void reverseRecursivelyPositive() {
 }
 ```
 
+- Optional exercise
+  - See if you can create "Person" class and see if you can traverse it using a test method
+
 ## Challenge questions after day 4
 
 - Is it possible to support Queue operations of "enqueue() to the tail" and "dequeue() from head" with a singular link node (instead of double link node as we've seen in our lab) assuming the queue has still both "head" and "tail"? 
