@@ -554,6 +554,12 @@ target: 4
 
 ![Picture of linked list](./images/singular-link-list.png)
 
+## Lab 2.5 - Singly Linked List
+
+- This lab exposes you multiple aspects of Java programming:
+  - Generics
+  - Singly Linked List
+  - Recursive programming
 
 ## Challenge questions after day 4
 
