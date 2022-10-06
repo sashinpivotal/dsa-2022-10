@@ -598,6 +598,15 @@ public void reverseRecursivelyPositive() {
     }
 ```
 
+## Lab 2.6 Stack
+
+- In order to add testing to this module, you will have to take the following steps: 
+  - right click the module
+  - create "test" directory
+  - choose "Open Module Settings"
+  - select "test" directory and right click it and select "Tests"
+  - add junit4 jar dependency provided as part of lab contents
+
 ## Lambda and Java Streams
 
 - [Slides - Java 8 Lambda Expression Syntax](https://github.com/sashinpivotal/java-presentations/blob/main/java/javase8_lambda_syntax.pdf)
