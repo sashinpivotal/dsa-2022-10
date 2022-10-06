@@ -615,17 +615,6 @@ public void reverseRecursivelyPositive() {
 
 ## Quiz after day 4
 
-- In the "pop" operation in the stack below, do we have to do any extra null pointer check of the "node.next" on the line of "head = node.next"?  In other words, can we set the head with "null"?
-
-```
-// pseudo code
-item pop( )
-    if (head != null)
-        node = head
-        head = node.next 
-        return node.value
-    return null
-```
 
 # Day 5
 
