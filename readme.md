@@ -580,7 +580,7 @@ public void reverseRecursivelyPositive() {
 
 - Optional exercise 
   - Is it possible to support Queue operations of "enqueue() to the tail" and "dequeue() from head" with a singular link node (instead of double link node as we've seen in our lab)? 
-  - Try to implement the queue with a singular link node and see if "enqueue() to the tail" and "dequeue() from head" work
+  - Try to implement the queue with a singular link node and see if "enqueue() to the tail" and "dequeue() from head" work as expected
 
 ## Quiz after day 4
 
