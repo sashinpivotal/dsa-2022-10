@@ -578,9 +578,25 @@ public void reverseRecursivelyPositive() {
 
 ## Lab 2.6 Queue
 
-- Optional exercise 
+- Optional exercise #1
   - Is it possible to support Queue operations of "enqueue() to the tail" and "dequeue() from head" with a singular link node (instead of double link node as we've seen in our lab)? 
   - Try to implement the queue with a singular link node and see if "enqueue() to the tail" and "dequeue() from head" work as expected
+
+- Optional exercise #2
+  - Add getter methods to the "head" and "tail" fields in the "Queue" class
+  - Add the last two assertions checking if "head" and "tail" are null to the "dequeueExistingSingleElementPositive()" as shown below
+  - See if it test succeeds - if not, refactor the code to have this test to succeed
+
+```java
+    @Test
+    public void dequeueExistingSingleElementPositive() {
+        String expected = new Customer(12345, "Andrew Smith", 255).toString();
+        String actual = queue.dequeue().toString();
+        assertEquals(expected.toString(), actual);
+        assertEquals(null, queue.getHead());  // <--- add this test
+        assertEquals(null, queue.getTail());  // <--- add this test
+    }
+```
 
 ## Lambda and Java Streams
 
