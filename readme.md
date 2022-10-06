@@ -616,8 +616,9 @@ public void reverseRecursivelyPositive() {
 ## Quiz after day 4
 
 - What is runtime complexity (big O notation) of enqueue'ing a new node to a queue?
-- What is runtime complexity (big O notation) of dequeuing'ing a node from a queue?
+- What is runtime complexity (big O notation) of dequeue'ing a node from a queue?
 - What is runtime complexity (big O notation) of traversing'ing a queue?
+- What is runtime complexity (big O notation) of searching for a node in a queue?
 
 
 # Day 5
