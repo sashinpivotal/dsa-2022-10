@@ -593,8 +593,8 @@ public void reverseRecursivelyPositive() {
         String expected = new Customer(12345, "Andrew Smith", 255).toString();
         String actual = queue.dequeue().toString();
         assertEquals(expected.toString(), actual);
-        assertEquals(null, queue.getHead());  // <--- add this test
-        assertEquals(null, queue.getTail());  // <--- add this test
+        assertEquals(null, queue.getHead());  // <--- add this line
+        assertEquals(null, queue.getTail());  // <--- add this line
     }
 ```
 
