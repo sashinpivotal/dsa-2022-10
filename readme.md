@@ -576,9 +576,14 @@ public void reverseRecursivelyPositive() {
 - Optional exercise
   - Write a test method in which you create a singly link list of "Person" and see if it traverses correctly
 
+## Lab 2.6 Queue
+
+- Optional exercise 
+  - Is it possible to support Queue operations of "enqueue() to the tail" and "dequeue() from head" with a singular link node (instead of double link node as we've seen in our lab) 
+  - Try to implement the queue with a singular link node to verify with your logic
+
 ## Quiz after day 4
 
-- Is it possible to support Queue operations of "enqueue() to the tail" and "dequeue() from head" with a singular link node (instead of double link node as we've seen in our lab) assuming the queue has still both "head" and "tail"? 
 - In the "pop" operation in the stack below, do we have to do any extra null pointer check of the "node.next" on the line of "head = node.next"?  In other words, can we set the head with "null"?
 
 ```
