@@ -546,6 +546,11 @@ target: 4
 
 # Day 4
 
+## Design patterns
+
+- [Presentation slides](https://github.com/sashinpivotal/java-presentations/tree/main/design_patterns)
+- [Example code](https://github.com/sashinpivotal/design-pattern-examples)
+
 ## Linked List resources
 
 - [Picture of linked list](https://www.geeksforgeeks.org/difference-between-singly-linked-list-and-doubly-linked-list/)
