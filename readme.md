@@ -561,6 +561,8 @@ target: 4
   - Singly Linked List
   - Recursive programming
 
+- Please note that your task is to print the list in the reverse order (not reverse the list itself)
+
 ## Challenge questions after day 4
 
 - Is it possible to support Queue operations of "enqueue() to the tail" and "dequeue() from head" with a singular link node (instead of double link node as we've seen in our lab) assuming the queue has still both "head" and "tail"? 
