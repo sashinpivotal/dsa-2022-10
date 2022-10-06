@@ -563,6 +563,16 @@ target: 4
 
 - Please note that your task is to print the list in the reverse order (not reverse the linked list itself)
 
+- In order to execute the above logic, you will run the following test
+
+```java
+    @Test
+    public void reverseRecursivelyPositive() {
+        // note: this is not a true test, just calling the method to see output
+        custList.reverseRecursively();
+    }
+```
+
 ## Challenge questions after day 4
 
 - Is it possible to support Queue operations of "enqueue() to the tail" and "dequeue() from head" with a singular link node (instead of double link node as we've seen in our lab) assuming the queue has still both "head" and "tail"? 
