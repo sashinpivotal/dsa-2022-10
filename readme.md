@@ -556,7 +556,7 @@ target: 4
 
 ## Lab 2.5 - Singly Linked List
 
-- This lab exposes you multiple aspects of Java programming:
+- This lab exposes you multiple dimensions
   - Generics
   - Singly Linked List
   - Recursive programming
