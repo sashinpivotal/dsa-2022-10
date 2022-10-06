@@ -566,11 +566,11 @@ target: 4
 - In order to execute the above logic, you will run the following test
 
 ```java
-    @Test
-    public void reverseRecursivelyPositive() {
-        // note: this is not a true test, just calling the method to see output
-        custList.reverseRecursively();
-    }
+@Test
+public void reverseRecursivelyPositive() {
+    // note: this is not a true test, just calling the method to see output
+    custList.reverseRecursively();
+}
 ```
 
 ## Challenge questions after day 4
