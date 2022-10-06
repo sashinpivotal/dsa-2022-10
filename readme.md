@@ -628,11 +628,6 @@ item pop( )
 
 - [Sang Shin's Dependency Injection Youtube demo](https://www.youtube.com/watch?v=kmQiiT4pATo&ab_channel=SangShin)
 
-## Java Lambda, Functional Interface, Java Streams presentations
-
-- [Lambda syntax presentation slides](https://github.com/sashinpivotal/java-presentations/blob/main/javase8_lambda_syntax.pdf)
-- [Functional Interface presentation slides](https://github.com/sashinpivotal/java-presentations/blob/main/javase8_lambda_fi.pdf)
-- [Java Streams presentation slides](https://github.com/sashinpivotal/java-presentations/blob/main/javase8_lambda_streams.pdf)
 
 ## How to add logging to your Maven project
 
