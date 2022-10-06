@@ -574,7 +574,7 @@ public void reverseRecursivelyPositive() {
 ```
 
 - Optional exercise
-  - Create "Person" class and see if you can traverse a singly link list of it using a test method
+  - Write a test method in which you create a singly link list of "Person" and see if it traverses correctly
 
 ## Challenge questions after day 4
 
