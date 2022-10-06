@@ -584,8 +584,8 @@ public void reverseRecursivelyPositive() {
 
 - Optional exercise #2
   - Add getter methods to the "head" and "tail" fields in the "Queue" class
-  - Add the last two assertions checking if "head" and "tail" are null to the "dequeueExistingSingleElementPositive()" as shown below
-  - See if it test succeeds - if not, refactor the code to have this test to succeed
+  - Add the two additional assertions - checking if "head" and "tail" are null to the "dequeueExistingSingleElementPositive()" - as shown below
+  - See if both assertions succeed - if not, refactor the "dequeue" method 
 
 ```java
     @Test
