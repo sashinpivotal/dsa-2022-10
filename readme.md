@@ -582,6 +582,12 @@ public void reverseRecursivelyPositive() {
   - Is it possible to support Queue operations of "enqueue() to the tail" and "dequeue() from head" with a singular link node (instead of double link node as we've seen in our lab)? 
   - Try to implement the queue with a singular link node and see if "enqueue() to the tail" and "dequeue() from head" work as expected
 
+## Lambda and Java Streams
+
+- [Slides - Java 8 Lambda Expression Syntax](https://github.com/sashinpivotal/java-presentations/blob/main/java/javase8_lambda_syntax.pdf)
+- [Slides - Java 8 Lambda Functional Interface](https://github.com/sashinpivotal/java-presentations/blob/main/java/javase8_lambda_fi.pdf)
+- [Slides - Java 8 Lambda Streams](https://github.com/sashinpivotal/java-presentations/blob/main/java/javase8_lambda_streams.pdf)
+
 ## Quiz after day 4
 
 - In the "pop" operation in the stack below, do we have to do any extra null pointer check of the "node.next" on the line of "head = node.next"?  In other words, can we set the head with "null"?
