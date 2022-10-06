@@ -552,7 +552,7 @@ target: 4
 
 ## Linked List resources
 
-- ![Picture of linked list](./images/singular-link-list.png)
+![Picture of linked list](./images/singular-link-list.png)
 
 
 ## Challenge questions after day 4
