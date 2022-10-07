@@ -619,7 +619,20 @@ public void reverseRecursivelyPositive() {
 
 ## Hash Table 
 
-- Read Hash Table section - (page [64 - 71]) - of the book of "Chapter 3. Hash Tables and Binary Search Trees" 
+- Read Hash Table section - (book content page [64 - 71]) - of the book of "Chapter 3. Hash Tables and Binary Search Trees" 
+
+- Questions to think about when reading the above
+  - What is Hash table?
+  - What is the "best case" insertion and search operations scenario in Hash table?  What would be the runtime complexity of this "best case" scenario?
+  - What is the "worst case" insertion and search operations scenario in Hash table?  What would be the runtime complexity of this "best case" scenario?
+  - What is load factor?
+  - What is hash function?  Why is it useful?
+  - What is collision?
+  - What are the two schemes of dealing with collisions?
+  - What are the two data structures involved in Chaining scheme?
+  - Does a chained hash have load limit, yes or no?
+  - The load factor of a chained hash can exceed load factor of 1, yes or no?
+  - What is "probe sequence" in open addressing scheme? What is "linear probing"?
 
 ## Lab 2.7 (Hash table)
 
