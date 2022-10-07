@@ -677,6 +677,10 @@ In addition to Lab 2.8 in which you are mostly reviewing the code, we are going 
 - [Slides - Java 8 Lambda Functional Interface](https://github.com/sashinpivotal/java-presentations/blob/main/java/javase8_lambda_fi.pdf)
 - [Slides - Java 8 Lambda Streams](https://github.com/sashinpivotal/java-presentations/blob/main/java/javase8_lambda_streams.pdf)
 
+## Collections and Generics
+
+- Collections and Generics slides (312-341)
+
 ## Dependency Injection Demo
 
 - [Sang Shin's Dependency Injection Youtube demo](https://www.youtube.com/watch?v=kmQiiT4pATo&ab_channel=SangShin)
