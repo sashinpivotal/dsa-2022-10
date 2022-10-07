@@ -667,7 +667,7 @@ In addition to Lab 2.8 in which you are mostly reviewing the code, we are going 
   
 - [Binary Tree with numbers](https://www.baeldung.com/java-binary-tree)
 
-- [Java tutorial sample apps](https://github.com/eugenp/tutorials.git)
+- [Java tutorial sample apps - see "data-structure"](https://github.com/eugenp/tutorials.git)
 
 # Misc. topics
 
