@@ -649,6 +649,7 @@ public class RemainderHashing implements HashProvider<Integer>{
 ## Binary Tree
 
 In addition to Lab 2.8 in which you are mostly reviewing the code, we are going to implement a bit simpler binary tree using the following:
+(Note that you are going to see pretty intense use of recursive programming)
   
 - [Binary Tree with numbers](https://www.baeldung.com/java-binary-tree)
 
