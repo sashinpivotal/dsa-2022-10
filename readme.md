@@ -617,10 +617,41 @@ public void reverseRecursivelyPositive() {
 
 # Day 5
 
-## Simple binary tree sample example
+## Hash Table and Lab 2.7
 
-- [Binary Tree with numbers](https://www.baeldung.com/java-binary-tree)
+- Read Hash Table section of "Chapter 3. Hash Tables and Binary Search Trees" (page [64 - 71]) of the book
+
+- When you run the following code, what do you find regarding the optimal table size? (See the bottom part of page [76] of the book) 
+
+```java
+public class RemainderHashing implements HashProvider<Integer>{
+
+    public int hashKey(Integer key, int tableSize) {
+        return key % tableSize;
+    }
+
+    public static void main(String[] args) {
+        RemainderHashing remainderHashing = new RemainderHashing();
+        System.out.println(remainderHashing.hashKey(337481990, 1000));
+        System.out.println(remainderHashing.hashKey(116241990, 1000));
+        System.out.println(remainderHashing.hashKey(983611990, 1000));
+        System.out.println(remainderHashing.hashKey(201031990, 1000));
+
+        System.out.println(remainderHashing.hashKey(337481990, 1447));
+        System.out.println(remainderHashing.hashKey(116241990, 1447));
+        System.out.println(remainderHashing.hashKey(983611990, 1447));
+        System.out.println(remainderHashing.hashKey(201031990, 1447));
+    }
+}
+```
+
+
+## Binary Tree
+
+In addition to Lab 2.8 in which you are mostly reviewing the code, we are going to implement a bit simpler binary tree using the following:
   
+- [Binary Tree with numbers](https://www.baeldung.com/java-binary-tree)
+
 
 # Misc. topics
 
