@@ -681,7 +681,7 @@ In addition to Lab 2.8 in which you are mostly reviewing the code, we are going 
 
 ## Collections and Generics
 
-- Collections and Generics slides (312-341)
+- Collections and Generics slides (312-341) Java Part 1 presentation
 
 ## Dependency Injection Demo
 
