@@ -677,7 +677,7 @@ In addition to Lab 2.8 in which you are mostly reviewing the code, we are going 
 - [Slides - Java 8 Lambda Functional Interface](https://github.com/sashinpivotal/java-presentations/blob/main/java/javase8_lambda_fi.pdf)
 - [Slides - Java 8 Lambda Streams](https://github.com/sashinpivotal/java-presentations/blob/main/java/javase8_lambda_streams.pdf)
 
-- [Lambda example code](/Users/sangshin/1jobs/tlg/java-instructor-sang/lambda-examples)
+- [Lambda example code](https://github.com/sashinpivotal/lambda-examples.git)
 
 ## Collections and Generics
 
