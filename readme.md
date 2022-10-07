@@ -617,9 +617,11 @@ public void reverseRecursivelyPositive() {
 
 # Day 5
 
-## Hash Table and Lab 2.7
+## Hash Table 
 
-- Read Hash Table section of "Chapter 3. Hash Tables and Binary Search Trees" (page [64 - 71]) of the book
+- Read Hash Table section - (page [64 - 71]) - of the book of "Chapter 3. Hash Tables and Binary Search Trees" 
+
+## Lab 2.7 (Hash table)
 
 - When you run the following code, what do you find regarding the optimal table size? (See the bottom part of page [76] of the book) 
 
@@ -645,14 +647,12 @@ public class RemainderHashing implements HashProvider<Integer>{
 }
 ```
 
-
 ## Binary Tree
 
 In addition to Lab 2.8 in which you are mostly reviewing the code, we are going to implement a bit simpler binary tree using the following:
 (Note that you are going to see pretty intense use of recursive programming)
   
 - [Binary Tree with numbers](https://www.baeldung.com/java-binary-tree)
-
 
 # Misc. topics
 
