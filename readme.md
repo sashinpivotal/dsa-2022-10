@@ -1,8 +1,13 @@
+ <a name="top"></a>
+
 - [Day 1](#day1)
 - [Day 2](#day2)
+- [Day 3](#day3)
+- [Day 4](#day4)
+- [Day 5](#day5)
 
 
-# Day 1<a name="day1"></a>
+# Day 1 <a name="day1"></a>
 
 ## Java review contents
 
@@ -162,7 +167,7 @@ README.html
 
 - [How to enable function keys for certain apps in Mac](https://www.techrepublic.com/article/how-to-permanently-display-the-function-keys-for-certain-apps-in-the-macbook-pro-touch-bar/)
 
-# Day 2 <a name="day2"></a>
+# Day 2 <a name="day2"></a>        [Top of page](#top)
 
 ## DS&A lab projects and IntelliJ
 
@@ -414,7 +419,7 @@ becomes "arbitrarily large"(infinite input size)
 1. What are the differences between Checked Exception vs Unchecked exception?
 1. What is the top-level Unchecked exception in Java?
 
-# Day 3
+# Day 3 <a name="day3"></a>        [Top of page](#top)
 
 ## Bubble sort
 
@@ -547,7 +552,7 @@ target: 4
 - What is the "base case"/"base condition" of the quick sort?
 - Can you explain how QuickSort works at the high level?
 
-# Day 4
+# Day 4 <a name="day4"></a>        [Top of page](#top)
 
 ## Design patterns
 
@@ -619,7 +624,7 @@ public void reverseRecursivelyPositive() {
 - What is runtime complexity (big O notation) of searching for a node in a queue?
 
 
-# Day 5
+# Day 5 <a name="day5"></a>        
 
 ## Hash Table 
 
