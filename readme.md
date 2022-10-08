@@ -1,4 +1,8 @@
-# Day 1
+- [Day 1](#day1)
+- [Day 2](#day2)
+
+
+<a name="day1"></a># Day 1
 
 ## Java review contents
 
@@ -158,7 +162,7 @@ README.html
 
 - [How to enable function keys for certain apps in Mac](https://www.techrepublic.com/article/how-to-permanently-display-the-function-keys-for-certain-apps-in-the-macbook-pro-touch-bar/)
 
-# Day 2
+# Day 2 <a name="day2"></a>
 
 ## DS&A lab projects and IntelliJ
 
